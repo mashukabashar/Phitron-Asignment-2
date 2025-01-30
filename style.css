@@ -1,0 +1,111 @@
+.main-container{
+
+    display: flex;
+}
+
+
+.cart-container{
+    width: 30%;
+    margin-right: 50px;
+}
+
+.cocktail-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:25px;
+    width:70%;
+    margin: auto;
+    text-align: center;
+}
+
+.card{
+    box-shadow: 14px 14px 28px gray;
+    padding:20px;
+    height: auto;
+    width:500px;
+}
+
+
+.card-img{
+    width: 100%;
+    height: 350px;
+}
+
+
+ .drink-name{
+    height: 50px;
+    width: 40%;
+    margin: 50px;
+}
+
+.search-button{
+    height: 50px;
+    padding: 15px;
+    width: 150px;
+    background-color: orange;
+    border-style: none;
+    color: white;
+    font-weight: bolder;
+    margin: 50px;
+} 
+
+.search-container{
+    display: flex;
+    justify-content: center;
+} 
+
+.b{
+    padding: 10px 20px;
+    border-style: none;
+    background-color: blue;
+    color: beige;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+
+.cart-info{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.img-cls{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.a{
+    width: 33%;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    width: 60%; 
+    height: 100%;
+    overflow: hidden;
+  }
+
+
+  .myBtn{
+    border-style: none;
+    background-color: gray;
+    color: beige;
+    float:right;
+  }
+
+  .myBody{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .mytext{
+    margin-top: 20px;
+  }
+  
+
