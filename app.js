@@ -1,3 +1,6 @@
+    //1st part
+
+    
     const loadAllCocktail = () => {
         fetch("https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a")
             .then((res) => res.json())
@@ -49,7 +52,7 @@
 
 
 
-    //2nd part
+    //2nd part-search
 
 
 
@@ -125,7 +128,7 @@
 
 
 
-//3rd part
+//3rd part-cart
 
 
 
@@ -166,7 +169,7 @@ const handleAddToCart = (img, name, event) => {
 
 
 
-//4th part
+//4th part-modal
 
 const openModal=(name, img, category, type, ins)=>{
         const show = document.getElementById("myModal");
